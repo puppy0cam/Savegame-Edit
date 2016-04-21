@@ -1,0 +1,2438 @@
+/*Top Row*/
+.badge {
+	background-color: #3b3b3b;
+}
+body {
+	background-color: black;
+	overflow-y: hidden;
+overflow-x: hidden;
+}
+.progress-bar {
+    -webkit-transition: width .1s ease;
+    transition: width .1s ease;
+}
+
+#wrapper {
+    height: 100vh;
+    background-size: auto 100%;
+}
+
+#topRow {
+    /*height: 285px;*/
+    height: 18vw;
+    margin-bottom: 10px;
+}
+
+.playerGather {
+    font-size: 1.1vw;
+    text-align: center;
+    width: 100%;
+	height: 100%;
+    border: 2px solid white;
+    background: rgba(121, 121, 123, 0.5);
+    margin-bottom: 3%;
+    color: white;
+}
+
+.holidaySaleDesc{
+	color: red;
+	font-weight: bold;
+}
+
+.holidaySale{
+	font-weight: bold;
+	color: red;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: inline-block;
+}
+
+.saleStrike{
+	text-decoration: line-through;
+	font-size: 0.8em;
+	color: red;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#jobsTitleUnemployed{
+	font-size: .8em;
+}
+
+.dmgColorWhite{
+	color: white;
+}
+
+.dmgColorRed{
+	color: red;
+}
+
+.shriekStateCooldown{
+	background-color: grey !important;
+}
+ 
+.shriekStateEnabled{
+	background-color: #5cb85c !important;
+ }
+
+.shriekStateDisabled{
+	background-color: #d9534f !important;
+ }
+ 
+ .formationStateEnabled{
+	background-color: #5cb85c !important;
+ }
+ 
+ .formationStateDisabled{
+	background-color: grey !important;
+ }
+ 
+.resourceRow{
+	height: 49.9%;
+	padding-right: .25vw;
+}
+
+#resourceColumn {
+	height: 100%;
+	padding-right: 0;
+}
+.maxH{
+	height: 100%;
+}
+
+#miscColumn {
+    margin-right: 0;
+	height: 100%;
+	width: 8.33333333%;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+}
+
+#trimpsColumn {
+    padding-right: .25vw;
+	padding-left: 0;
+    height: 100%;
+}
+
+.resourceRow >:first-child {
+    padding-right: .25vw;
+}
+
+.resourceRow >:nth-child(2) {
+    padding-left: .25vw;
+	padding-right: 0;
+}
+
+.resourceRow{
+	padding-right: 0;
+}
+
+#resourceColumn{
+	padding-left: 0;
+	margin-left: 15px;
+	width: calc(33.33333333% - 15px);
+	padding-right: 15px;
+}
+
+#trimpsTimeToFill {
+	color: black;
+	margin-top: 4%;
+}
+
+.resProgress {
+    height: 12%;
+}
+
+.playerGatherSm {
+    height: 32.5%;
+}
+
+.playerGatherSm > .title {
+	font-size: 1.2vw;
+}
+
+#trimps {
+    height: 100%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#logBtnGroup {
+    height: 2vw;
+	font-size: 1vw;
+}
+
+#logBtnGroup div button {
+	font-size: 0.8vw;
+}
+
+.workBtn {
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 1);
+    font-size: 1.12em;
+    text-align: center;
+    padding: 3px;
+}
+
+.incrementBtn {
+    border: 1px solid white;
+    background: rgba(255, 255, 255, .75);
+	color: black;
+    font-size: 1vw;
+    text-align: center;
+    padding: 4px;
+}
+
+#scienceCollectBtn{
+	font-size: 1em;
+}
+
+.portalBtn{
+	font-size: .6vw;
+}
+
+
+
+.lowPad {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.noPad {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#science {
+    padding-top: 3.5%;
+}
+
+.collectRow {
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.collectRow >:first-child {
+    padding-right: 2px;
+}
+
+.collectRow >:nth-child(2) {
+    padding-left: 2px;
+}
+
+.psText {
+    font-size: 1.2em;
+	display: block;
+    text-align: center;
+}
+
+.bdHover {
+	cursor: pointer;
+}
+
+#innerWrapper{
+	margin: 0;
+	padding: 0;
+	padding: 0.5%;
+	height: 100%;
+}
+
+.psText:hover, .bdHover:hover{
+	text-decoration: underline;
+	color: #318696 !important;
+}
+
+.psQ{
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 10%;
+	font-size: .8em;
+	background-color: blue;
+	padding: 1.75% 4%;
+}
+
+.bdTableSm{
+	font-size: .85vw;
+	text-align: center;
+}
+
+.bdTableSm > tbody > tr > td{
+	border: 1px solid black;
+}
+
+.bdTable{
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.bdTable > tbody > tr > td{
+	width: 33%;
+	border: 1px solid black;
+}
+
+.bdTitle{
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+.bdPercent{
+	
+}
+
+.bdNumber{
+	
+}
+
+.collectRow {}
+
+#trapArea {
+    border: 1px solid white;
+    display: inline-block;
+    padding: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 85%;
+}
+
+#trappingBar {}
+
+#trappingProgress {
+    margin-top: 3%;
+}
+
+#empHide,
+#unempHide {
+    font-size: 1.2em;
+}
+
+#logContainer {
+    border: 2px solid white;
+    height: 100%;
+    width: 100%;
+    background: rgba(121, 121, 123, 0.5);
+    color: white;
+}
+
+#logColumn {
+    padding-left: .25vw;
+	height: 100%;
+}
+
+
+
+#buyCol {
+	height: 100%;
+	padding-right: .25vw;
+}
+
+.alert {
+    background-color: yellow;
+    color: black;
+	min-width: initial;
+	padding: 2% 5.5%;
+	font-size: 1em;
+	border-radius: 100%;
+}
+
+#mapsBtn .alert{
+	background-color: #2E0854;
+	color: #DDDDFF;
+}
+
+#foremenCount,
+#buildSpeed {
+    font-size: 1.12em;
+    margin-top: 5px;
+}
+
+#queueContainer {
+    background: rgba(121, 121, 123, 0.5);
+    border: 2px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 85px;
+	
+}
+
+.queueItem {
+    display: inline-block;
+    font-size: 1.1em;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    text-align: center;
+    padding: 2px;
+	overflow: hidden; 
+	position: relative;
+}
+
+.queueItemName, #queueTimeRemaining{
+	z-index: 2 !important;
+	position: relative;
+}
+
+#animationDiv{
+	position:absolute; 
+    top:0; 
+	left: 0;
+    width:100%; 
+    height: 100%;
+    background:#1E90FF;
+	opacity: 0;
+	z-index: 1 !important;
+}
+
+#queueItemsHere >:nth-child(1) {
+    border: 2px solid yellow;
+    margin-left: 5px;
+}
+
+#queueRow {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#buildingsCollectBtn {
+    width: 95%;
+}
+
+#buildingsQueue {
+    overflow-y: auto;
+    height: 40px;
+}
+
+#noQueue {
+    font-size: 1.4em;
+    color: white;
+    padding-left: 5px;
+}
+
+#fireBtn {
+    border: 1px solid white;
+}
+
+#viewChallengeText {
+	font-size: 1.3vw;
+}
+
+.nextChallenge {
+	background-color: black !important;
+	color: white;
+}
+
+#portalRow {
+	margin-top: 1vw;
+}
+
+.nav > li > a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav > li > a:focus {
+    background: none;
+}
+
+.nav-tabs>li>a {
+    color: white;
+    font-size: 1.1em;
+    padding: 4px;
+}
+
+#buyHere {
+    width: 100%;
+    overflow-y: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.titleDiv {
+    font-size: 1.5em;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    width: calc(100% - 10px);
+}
+
+.titleSpan {}
+
+#buyContainer {
+	overflow-y: auto;
+	height: calc(99vh - 20vw - 195px);
+}
+
+#outerBuyContainer{
+	border: 2px solid white;
+	margin: 0 0 5px 0;
+	background: rgba(121,121,123,0.5);
+	color: white;
+}
+
+#buyHere {
+    padding: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.thing {
+    display: inline-block;
+	width: 24.2%;
+	margin-left: 0.25%;
+	margin-right: 0.25%;
+    padding: .2vh;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-size: .85vw;
+    border: 1px solid white;
+}
+
+#battleContainer {
+    border: 2px solid white;
+    background: rgba(121, 121, 123, 0.5);
+    color: white;
+    padding: 0.25vw;
+    height: 100%;
+    width: 100%;
+	font-size: 1vw;
+}
+
+.fightBar{
+	height: 1.4vw;
+	font-size: 1.6vw !important;
+	font-weight: bold;
+}
+
+.innerFightBar{
+	font-size: 1.4vw !important;
+	line-height: 1.4vw !important;
+}
+
+#battleHeadContainer {
+	margin-bottom: 0.3vw;
+}
+
+#battleHead {
+    text-align: center;
+}
+
+#goodGuyBar,
+#badGuyBar {
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+#gridRow {
+    height: calc(99% - 140px);
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#settingsRow {
+    position: fixed;
+    bottom: 0;
+    background-color: #545353;
+    width: 100%;
+    left: 0;
+	color: white;
+}
+
+#settingsTable > tbody > tr > td {
+	width: 9.1% !important;
+	border: 1px solid black;
+	display: table-cell !important;
+	text-align: center;
+}
+
+.noTitle.title {
+	display: none;
+}
+
+
+.settingBtn {
+    font-size: 1.3vw;
+	border: 1px solid black;
+	cursor: pointer;
+	text-align: center;
+
+}
+
+.settingBtntrue, .settingBtn1{
+	background-color: #5cb85c;
+}
+
+.settingBtnfalse, .settingBtn0{
+	background-color: #d9534f;
+}
+
+.settingBtn2{
+	background-color: yellow;
+	color: black;
+}
+
+.optionContainer {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-bottom: 1vw;
+	width: 15.5vw;
+}
+
+.optionItemDescription{
+	padding-left: .5vw;
+	padding-right: .5vw;
+	font-size: 1vw;
+}
+
+#settingsHere{
+	margin-bottom: 2vw;
+	margin-top: 2vw;
+}
+
+#numTabs{
+	margin-top: 5px;
+}
+
+#numTabs > ul > li > a {
+    padding: 3px;
+}
+
+#buyTabsUl > li > a {
+	border: 1px solid #ddd;
+	border-radius: 8px 8px 0 0;
+}
+
+.buyTab{
+	font-size: 1vw;
+}
+
+#mapsHere, #voidMapsHere {
+	height: calc(100vh - 31.5vw - 90px);
+    overflow-y: auto;
+	width: 100%;
+}
+
+#settingsTable {
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.progress {
+    margin-bottom: 0;
+}
+
+#rightCol {
+	height: calc(99vh - 20vw - 27px);
+	padding-left: .25vw;
+}
+
+.ownedArea {
+    font-size: 1.3em;
+}
+
+#leftMenu {
+    height: 100%;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.buyTitle {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.message {
+    display: block;
+    margin-top: 5px;
+	font-size: .9vw;
+}
+
+#buildings {
+    text-align: center;
+}
+
+#grid,
+#mapGrid {
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: rgba(255, 255, 255, 0.25);
+    text-align: left;
+	list-style: none;
+	padding-left: 0;
+}
+
+.battleRow{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.battleCell {
+    border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+}
+
+.collecting {}
+
+#log {
+    height: calc(100% - 2.1vw);
+    width: 100%;
+    overflow-y: scroll;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-right: 5px;
+}
+
+#settings {
+
+}
+
+#exportBox {
+    width: 32.5vw;
+    position: absolute;
+    background: lightgrey;
+    display: none;
+    padding: 10px;
+    border: 2px solid blue;
+    font-size: 0.9vw;
+	z-index: 7;
+}
+
+#exportBox.tooltipExtraHeirloom{
+	background-color: initial;
+	border: initial;
+}
+
+#exportBox .selectedHeirloomItem{
+	font-size: 1.5vw;
+}
+
+#exportBox.tooltipExtraHeirloom hr{
+	display: none;
+}
+
+#exportBox .heirloomMod{
+	background-color: initial;
+	border: initial;
+	margin: initial;
+}
+
+@media screen and (max-width: 1200px) {
+    #exportBox{
+		font-size: 1.1vw;
+	}
+}
+
+
+#exportBox > hr {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+#importBox {
+    width: 32.5vw;
+    position: absolute;
+    background: lightgrey;
+    display: none;
+    padding: 10px;
+    border: 2px solid blue;
+    font-size: 0.9vw;
+	z-index: 7;
+}
+
+#importBox.tooltipExtraHeirloom{
+	background-color: initial;
+	border: initial;
+}
+
+#importBox .selectedHeirloomItem{
+	font-size: 1.5vw;
+}
+
+#importBox.tooltipExtraHeirloom hr{
+	display: none;
+}
+
+#importBox .heirloomMod{
+	background-color: initial;
+	border: initial;
+	margin: initial;
+}
+
+@media screen and (max-width: 1200px) {
+    #importBox{
+		font-size: 1.1vw;
+	}
+}
+
+
+#importBox > hr {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.onMapName{
+	width: 90%;
+	display: inline-block;
+}
+
+.onMapIcon{
+	width: 5%;
+	display: inline-block;
+}
+
+.alignCenter{
+	text-align: center;
+}
+
+#tipTitle {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.fightBtn{
+	width: 100%;
+	font-size: 1.1vw !important;
+	padding: 0.15vw 0.3vw;
+	display: block;
+}
+
+.shrinkBtnText{
+	font-size: 0.9vw !important;
+}
+
+@media screen and (max-height: 800px) {
+    .fightBtn{
+		font-size: .95vw !important;
+	}
+}
+
+
+
+#lootBdTabs{
+	background-color: black;
+}
+
+#lootBdTabs > li{
+	border: 1px solid white;
+}
+
+#pauseFight{
+	font-size: 1vw;
+}
+
+.battleStatsTitle {
+    font-size: 1.1em;
+}
+
+.badBadge {
+	font-size: .8em;
+}
+
+#badCanCrit{
+	font-size: 0.88em;
+}
+
+.trimpBadge {
+	font-size: .8em;
+	background-color: yellow;
+	color: black;
+}
+
+.antiBadge{
+	font-size: .8em;
+}
+
+#determinedBuff{
+	color: orange;
+	padding: 6px 7px 2px 7px;
+}
+
+#momentumIcon{
+	padding-left: 4px;
+}
+
+.autosaving{
+	color: white; 
+	background-color: #5cb85c; 
+	border-radius: 25px; 
+	padding: 0.25em;
+	font-size: .9em;
+}
+
+.notAutosaving{
+	color: white; 
+	background-color: #d9534f; 
+	font-size: .9em;
+	border-radius: 25px; 
+	padding: 0.25em;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.battleSideBtnContainer{
+	margin-top: 0.2vw;
+}
+
+#battleTimer {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#battleBtnsColumn{
+	padding-right: 1px;
+	padding-left: 0;
+}
+
+#battleSideTitle {
+    font-size: 1.1vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+	padding-top: 5%;
+	padding-bottom: 5%;
+	
+}
+
+.brokenUpgrade {
+	color: purple;
+}
+
+.niceScroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+
+.niceScroll::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.niceScroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.logFlt {
+    border-radius: 0;
+}
+
+#preMapsTitle {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#mapChamberTitleRow{
+	height: 30px;
+}
+
+#selectedMapContainer {
+    font-size: 1.1vw;
+    text-align: center;
+	margin-bottom: 5px;
+}
+.selectMapBtn{
+	font-size: 1.1vw;
+}
+.mapStatsValue {
+	text-align: left;
+}
+
+.mapStatsTitle {
+	text-align: right;
+}
+
+#mapsCreateRow {
+	text-align: center;
+	font-size: 1vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 1vw;
+	margin-right: 1px;
+}
+#advMapsRow{
+	text-align: center;
+	font-size: .9vw;
+	background-color: rgba(0,0,0,0.5);
+	padding-bottom: 1vw;
+	margin-right: 1px;
+}
+#advMapsTitle{
+	font-size: 1.2vw;
+}
+#selectedMapName {
+    text-decoration: underline;
+	padding-top: 10px;
+}
+
+#mapLevelInput {
+	color: black;
+	width: 3.3vw;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+#portalWrapper{
+	color: black;
+	width: 100vw;
+	height: 100vh;
+	padding: 20px;
+	text-align: center;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.portalMk1{
+	background-color: green;
+}
+
+.portalMk2{
+	background-color: #00b386;
+}
+
+.portalMk3{
+	background-color: #3db0f8;
+}
+
+.portalMk4{
+	background-color: #2a6a93;
+}
+
+.portalMk5{
+	background: -webkit-repeating-radial-gradient(#01785a 10%, #256e9b 10%, #17394f 10%, #11222e 20%);
+	background: -o-repeating-radial-gradient(#01785a 10%, #256e9b 10%, #17394f 10%, #11222e 20%);
+	background: -moz-repeating-radial-gradient(#01785a 10%, #256e9b 10%, #17394f 10%, #11222e 20%);
+	background: repeating-radial-gradient(#01785a 10%, #256e9b 10%, #17394f 10%, #11222e 20%);
+}
+
+.portalMkPreview{
+	background-color: black;
+	color: white !important;
+}
+
+.portalMk5 #portalStory,
+ .portalMk5 #challengeDescriptionPre,
+ .portalMk5 #challengeName,
+ .portalMk5 #portalTitle,
+ .portalMk5 #portalError,
+ .portalMk5 #portalHelium,
+ .portalMk5 #portalTotalHelium,
+ .portalMk5 #portalTotalPortals,
+ .portalMk5 #challengeTitle{
+  color: white !important;
+}
+
+.portalMk5 #flagMustRestart{
+	color: #C55B5B;
+
+}
+
+.perkColorOn{
+	background-color: black;
+}
+
+.perkColorOff{
+	background-color: grey;
+}
+
+.portalThing.detailed{
+	font-size: 0.72vw;
+}
+
+#statsWrapper, #achievementWrapper, #heirloomWrapper{
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+	padding: 20px;
+	text-align: center;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	font-size: 1.5vw;
+	color: white;
+}
+
+#modReplaceBox, #modUpgradeBox{
+	border: 0.1vw solid #777;
+	font-size: 1.2vw;
+	padding: 0.25vw;
+	padding-top: 0.6vw;
+	height: 5.7vw;
+}
+
+#addCarriedBtn{
+	display: inline-block;
+	width: initial;
+	font-size: 1vw;
+	float: right;
+	padding: 0.1vw 0.2vw;
+	margin: 0;
+}
+
+.heirloomBtnGroup{
+	background-color: #333;
+	border-top: 0.1vw solid #555;
+	font-size: 1.3vw;
+}
+
+.heirBtn{
+	display: inline-block;
+	padding: 0.2vw 0.5vw;
+	margin-top: 0.1vw;
+	margin-bottom: 0.1vw;
+	border: 0.1vw solid #777;
+	cursor: pointer;
+}
+
+.heirBtn.heirloomBtnActive:hover{
+	-webkit-box-shadow:inset 0px 0px 0px 0.2vw #fff;
+    -moz-box-shadow:inset 0px 0px 0px 0.2vw #fff;
+    box-shadow:inset 0px 0px 0px 0.2vw #fff;
+	opacity: 0.5;
+}
+
+#modReplaceBtn, #modUpgradeBtn{
+	padding: 0.25vw;
+	width: 90%;
+	margin-left: 5%;
+	display: block;
+}
+
+.heirloomBtnActive{
+	background-color: #3b0076;
+	color: #DDDDFF;
+}
+
+.heirloomBtnInactive{
+	background-color: #333;
+	color: white;
+}
+
+#modUpgradeCost{
+	margin-bottom: calc(0.4vw - 1px);
+}
+
+#modReplaceSelect{
+	background-color: black;
+	pointer: cursor;
+	border: 0.2vw solid purple;
+	margin-left: -0.2vw;
+	margin-bottom: 0.25vw;
+}
+
+.heirloomMod:hover{
+	background-color: #333;
+}
+
+.heirloomThing{
+	color: white;
+	font-size: 2vw;
+	line-height: 2vw;
+}
+
+.heirloomRare0{
+	color: #888888;
+}
+
+.heirloomRare0 .heirloomMod:hover,.heirloomRare0.rarityBdBox{
+	border: 0.2vw solid #888;
+}
+
+.heirloomRare1{
+	color: #1f7e1f;
+}
+
+.heirloomRare1 .heirloomMod:hover, .heirloomRare1.rarityBdBox{
+	border: 0.2vw solid #1f7e1f;
+}
+
+.heirloomRare2{
+	color: #2b2bce;
+}
+
+.heirloomRare2 .heirloomMod:hover, .heirloomRare2.rarityBdBox{
+	border: 0.2vw solid #2b2bce;
+}
+
+.heirloomRare3{
+	color: #7e1f7e;
+}
+
+.heirloomRare3 .heirloomMod:hover, .heirloomRare3.rarityBdBox{
+	border: 0.2vw solid #7e1f7e;
+}
+
+.heirloomRare4{
+	color: #e2722e;
+}
+
+.heirloomRare4 .heirloomMod:hover, .heirloomRare4.rarityBdBox{
+	border: 0.2vw solid #e2722e;
+}
+
+.heirloomRare5{
+	color: #b92727;
+}
+
+.heirloomRare5 .heirloomMod:hover, .heirloomRare5.rarityBdBox{
+	border: 0.2vw solid #b92727;
+}
+
+.heirloomRare6{
+	color: #2693ff;
+		text-shadow:
+	 -0.15vw -0.15vw 0.2vw #5000ba,  
+	  0.15vw -0.15vw 0.25vw #5b00d3,
+	 -0.15vw 0.15vw 0.2vw #6600ec,
+	  0.15vw 0.15vw 0.3vw #2f006d;
+}
+
+.heirloomRare6 .heirloomMod:hover, .heirloomRare6.rarityBdBox{
+	border: 0.2vw solid #2693ff;
+}
+
+.heirloomRare6 .heirloomMod{
+	background-color: initial;
+}
+
+#heirRare{
+	background-color: #111;
+	font-size: 1.1vw;
+	text-align: center;
+}
+
+.rarityBdBox{
+	display: inline-block;
+	width: 15%;
+	margin: 0.1vw;
+	
+}
+
+#heirloomRarityMisc{
+	margin-top: .25vw;
+	line-height: 0.8em;
+}
+
+#buyHeirloomArea .miscDesc{
+	margin-top: 0;
+}
+
+#heirloomRarityMisc div{
+	padding: 0.2vw 0;
+}
+
+#heirloomRarityMisc .heirloomRare6{
+	background-color: black;
+}
+
+
+#modBreakdown{
+	margin-top: 0.65vw;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.selectedHeirloomIcon{
+	font-size: 3.5vw;
+	text-align: center;
+	line-height: 2vw;
+}
+
+#ShieldEquipped, #StaffEquipped{
+	background-color: #333;
+	display: inline-block;
+	padding: 1vw;
+	width: 4.6vw;
+	height: 4.6vw;
+	font-size: 2.5vw;
+	line-height: 2.5vw;
+	margin-bottom: -0.25vw;
+	-webkit-box-shadow:inset 0px 0px 0px 0.2vw #646473;
+    -moz-box-shadow:inset 0px 0px 0px 0.2vw #646473;
+    box-shadow:inset 0px 0px 0px 0.2vw #646473;
+}
+
+#ShieldEquippedName, #StaffEquippedName{
+	font-size: 1.4vw;
+	line-height: 1.4vw;
+}
+
+.renameHeirloomBtn{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	border: 1px solid white;
+	padding: 0.25vw;
+	border-radius: 25px;
+	font-size: 1vw;
+	display: inline-block;
+	position: relative;
+	top: -0.4vw;
+}
+
+#renameHeirloomBtn:hover{
+	background-color: #222;
+}
+
+.selectedHeirloomRow{
+	margin-bottom: 0.4vw;
+}
+
+#equippedHeirlooms{
+	font-size: 2vw;
+	margin-bottom: 1vw;
+	background-color: #111;
+	border: 0.3vw solid #555;
+}
+
+#carriedHeirlooms{
+	font-size: 1.3vw;
+	background-color: #111;
+	border: 0.3vw solid #555;
+	margin-bottom: 1vw;
+}
+
+#carriedHeirloomsText, #extraHeirloomsText{
+	font-size: 1vw;
+	line-height: 1.3vw;
+	display: inline-block;
+}
+
+.heirloomModBtn{
+	border: 1px solid white;
+	cursor: pointer;
+	color: white;
+}
+
+.critRow{
+	background-color: black !important;
+	color: white;
+}
+
+.critRow td{
+	border: 1px solid white !important;
+}
+
+.heirloomMod{
+	cursor: pointer;
+	padding: 0.2vw 0.4vw 0.2vw 0.4vw;
+	border: 0.2vw solid #333;
+	background-color: #222;
+	border-radius: 40px;
+	margin-bottom: 0.3vw;
+	display: inline-block;
+}
+
+.heirloomThing:hover{
+ text-shadow:
+ -0.15vw -0.15vw 0.2vw #aaa,  
+ 0.15vw -0.15vw 0.2vw #aaa,
+ -0.15vw 0.15vw 0.2vw #aaa,
+ 0.15vw 0.15vw 0.2vw #aaa;
+	cursor: pointer;
+}
+
+.iconSelected{
+	border: 1px solid red;
+}
+
+#extraHeirlooms{
+	font-size: 1.3vw;
+	background-color: #111;
+	border: 0.3vw solid #555;
+	margin-bottom: 1vw;
+}
+
+.selectedHeirloomItem{
+	font-size: 2vw;
+	border: 0.3vw solid #555;
+	padding: 0.5vw;
+	padding-left: 2vw;
+	text-align: left;
+	background-color: #111111;
+}
+
+.selectedHeirloomItem.heirloomRare6{
+background: -moz-linear-gradient(-45deg,  #000b38 0%, #280021 50%, #000b38 100%); 
+background: -webkit-linear-gradient(-45deg,  #000b38 0%,#280021 50%,#000b38 100%); 
+background: linear-gradient(135deg,  #000b38 0%,#280021 50%,#000b38 100%); 
+}
+
+
+
+#heirloomTitleBar{
+	padding: 1vw;
+	background-color: #222;
+	border: 0.3vw solid #555;
+	margin-bottom: 1vw;
+}
+
+#nullifiumContainer{
+	color: #8a008a;
+}
+
+.heirInfo{
+	font-size: 1vw;
+	line-height: 1vw;
+	padding: 0.3vw 0.5vw 0.3vw 0.5vw;
+	border-radius: 50px;
+}
+
+#heirloomHelp{
+	font-size: 1vw;
+	line-height: 1vw;
+	margin-bottom: 0.5vw;
+}
+
+#nullifiumCount{
+	font-weight: bold;
+}
+
+#selectedHeirloomTitle{
+	font-size: 2.3vw;
+	cursor: pointer;
+}
+
+#selectedHeirloomTitle:hover{
+	text-decoration: underline;
+}
+
+#heirloomNameInput{
+	width: 70%;
+}
+
+.heirloomEquipped{
+	color: white;
+}
+
+#achievementWrapper{
+	background-color:black;
+
+	padding: 2vw 5vw 2vw 5vw;
+}
+
+#achievementsHere{
+	margin-top: 2%;
+	overflow-y:  auto;
+	height: calc(98% - 9.5vw);
+	background: rgba(60, 60, 60, 0.4);
+	text-align: center;
+}
+
+.littleAchievementWrapper{
+	width: 85%;
+	display: inline-block;
+	text-align: left;
+}
+
+.achievementContainer{
+	border: 1px solid white;
+	margin: 0.5%;
+	display: inline-block;
+	color: black;
+	font-size: 1.22vw;
+	line-height: 1.45vw;
+	text-align: center;
+	padding-top: 0.15vw;
+}
+
+.achievementTitle{
+	width: 15%;
+	border: 0.2vw solid white;
+	background-color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.2vw;
+	color: black;
+	line-height: 1.6vw;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0.4vw;
+}
+
+.doubleTall{
+	line-height: 4.15vw;
+}
+
+#achievementPopup{
+	position: absolute;
+	top: 80%;
+	width: 35%;
+	left: 32.5%;
+	background: rgba(220, 220, 220, 0.95);
+	color: #3f3f3f;
+	font-size: 1.5vw;
+	text-align: center;
+	border-radius: 25px;
+	border: 4px outset #536373;
+	z-index: 99999999999999;
+}
+
+#heirloomsPopup{
+	position: absolute;
+	top: 40%;
+	width: 35%;
+	left: 32.5%;
+	font-size: 1.5vw;
+	background-color: #111;
+	border: 0.2vw solid #ccc;
+	z-index: 10;
+}
+
+#heirloomsPopupBtns{
+	text-align: center;
+	color: white;
+	background-color: #333;
+	border-bottom: #222;
+}
+
+
+
+#heirloomsPopupHere .selectedHeirloomItem{
+	border: 0 !important;
+}
+
+#heirloomsPopupBtns .icon-archive{
+	color: #8a008a;
+}
+
+#heirloomsPopupBtns .icon-close{
+	color: #6f1f1f;
+	padding-left: 0.2vw;
+}
+
+#heirloomsPopupBtns .icomoon{
+	float: right;
+	margin-right: 0.5vw;
+	cursor: pointer;
+	margin-top: 0.2vw;
+}
+
+
+#achievementHover{
+	width: 100%;
+	background: rgba(220, 220, 220, 0.95);
+	color: #3f3f3f;
+	font-size: 1.5vw;
+	text-align: center;
+	border-radius: 25px;
+	border: 4px outset #536373;
+
+}
+
+#achievementMessage{
+	width: 98%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+#achievementTopRow{
+	height: 8.5vw;
+}
+
+#achievementMainButtons{
+	position: absolute;
+	font-size: 2vw;
+	left: 95%;
+	z-index: 999999;
+}
+
+#achievementHelp{
+	color: #202080;
+	cursor: pointer;
+}
+
+.bdZoneTitle{
+	font-size: 1.1em;
+}
+
+#roboTrimpBtn{
+	text-align: center;
+}
+
+#chainHolder{
+	width: 100%;
+	border-radius: 25px;
+	display: inline-block;
+	background-color: grey;
+	border: 1px solid black;
+	line-height: 1.1em;
+	font-size: 1.1em;
+	color: black;
+	padding-top: 0.1em;
+}
+
+#achievementHelpContainer{
+	font-size: 1.3vw;
+}
+
+#achievementMainClose{
+	color: #6f1f1f;
+	cursor: pointer;
+}
+
+#achievementHeader{
+	font-size: 1.5vw;
+}
+
+.achievementMainTitle{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.achievementPopupIcon{
+	font-size: 3.8em;
+	color: #151535;
+}
+
+#achievementPopupDescription, #achievementHoverDescription{
+	font-size: .85em;
+}
+
+#achievementPopupReward, #achievementHoverReward{
+	font-size: .85em;
+}
+
+#achievementHoverProgress {
+	font-size: .75em;
+	font-weight: bold;
+}
+
+#achievementPopupTitle, #achievementHoverTitle{
+	font-weight: bold;
+	color: #318696;
+}
+
+.achievementBtns{
+	left: 87%;
+	display: inline-block;
+	position: absolute;
+	z-index: 50;
+}
+
+.achievementBtnClose{
+	cursor: pointer;
+	color: #6f1f1f;
+	font-size: 1.15em;
+}
+
+.achievementBtnGo{
+	cursor: pointer;
+	color: #1f6f1f;
+	margin-right: 0.1vw;
+}
+
+
+
+#statsTitle{
+	font-size: 3vw;
+}
+
+.activatePortalBtn{
+	font-size: 1.3vw;
+	margin: 15px;
+}
+
+#portalStory{
+	display: inline-block;
+	font-size: 1vw;
+}
+
+.heirloomRecycleWarning{
+	background-color: black;
+	color: red;
+}
+
+.portalThing{
+	width: 19.3%;
+	font-size: 1.2vw;
+}
+
+#portalUpgradesHere{
+	display: inline-block;
+}
+
+#portalTitle{
+	width: 100%;
+	font-size: 3.5vw;
+	text-align: center;
+}
+
+#portalHelium{
+	font-size: 2vw;
+}
+#portalTotalHelium{
+	font-size: 1.3vw;
+}
+#portalTotalPortals{
+	font-size: 1.3vw;
+}
+
+.inPortalBtn{
+	font-size: 2vw !important;
+}
+
+.inPortalBtnSm{
+	font-size: 1.5vw !important;
+	margin-bottom: .5vw;
+}
+
+#biomeAdvMapsSelect{
+	color: black;
+}
+
+.NoticesMessage {
+    color: red;
+	background: rgba(0, 0, 0, 0.5);
+}
+.StoryMessage {
+	color: #00FFFF;
+}
+#saveGame{
+	color: #7CFC00;
+}
+
+.exotic{
+	color: #640169 !important;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.pumpkimp{
+	color: orange !important;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.presimpt{
+	color: rgb(64, 220, 64) !important;
+	background: rgba(220, 64, 64, 0.75);
+}
+
+.presimptBones{
+	color: white !important;
+	font-weight: bold;
+}
+
+.statToggleBtn{
+	font-size: 1.5vw;
+	border: 5px solid black;
+}
+
+.eggMessage{
+	color: #8beab7;
+	background-color: #222;
+	display: block;
+	padding: 2%;
+}
+
+.easterEgg0{
+	color: #83ddd6;
+}
+
+.easterEgg1{
+	color: #f4c7c7;
+}
+
+.easterEgg2{
+	color: #8beab7;
+}
+
+.easterEgg3{
+	color: #f6f297;
+}
+
+.eggCell{
+	cursor: pointer;
+}
+
+.eggCell:hover .easterEgg{
+	color: white;
+}
+
+#turkimpBuff{
+	width: 100%;
+	text-align: center;
+	background: rgba(102, 51, 0, 0.7);
+	color: #CC6600;
+	font-size: .8em;
+	padding-top: .2vw;
+}
+
+.turkimp{
+	background: rgba(102, 51, 0, 0.9);
+	color: #CC6600;
+}
+
+.noRecycle{
+	background-color: #5cb85c;
+}
+
+.noRecycleDone{
+	background-color: red;
+}
+
+.voidMap{
+background: -moz-linear-gradient(-45deg,  #2f006d 0%, #30046d 12%, #320370 25%, #3f0a6d 39%, #2f095e 50%, #2e0854 51%, #220535 60%, #25063d 76%, #12031e 92%, #131313 100%);
+background: -webkit-linear-gradient(-45deg,  #2f006d 0%,#30046d 12%,#320370 25%,#3f0a6d 39%,#2f095e 50%,#2e0854 51%,#220535 60%,#25063d 76%,#12031e 92%,#131313 100%);
+background: linear-gradient(135deg,  #2f006d 0%,#30046d 12%,#320370 25%,#3f0a6d 39%,#2f095e 50%,#2e0854 51%,#220535 60%,#25063d 76%,#12031e 92%,#131313 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f006d', endColorstr='#131313',GradientType=1 ); 
+color: #DDDDFF !important;
+}
+
+.voidMessage, .voidBadge, .voidCell.cellColorNotBeaten{
+	background-color: #2E0854;
+	color: #DDDDFF;
+}
+
+.reducedSizeSec{
+	font-size: 0.9em !important;
+}
+
+#gemsPs .reducedSizeSec, #fragmentsPs .reducedSizeSec{
+	font-size: 0.85em !important;
+}
+
+.planetBreakDescription{
+	font-weight: bold;
+}
+
+.planetBreakDescription .good{
+	color: green;
+}
+
+.planetBreakDescription .bad{
+	color: red;
+}
+
+#voidMapsBtn:hover{
+	background-color: #1f0539;
+	color: #FFF;
+}
+
+.voidBadge{
+	font-size: 0.9em;
+}
+
+
+.successColor, .colorSuccess{
+	background-color: #5cb85c;
+}
+.dangerColor, .colorDanger{
+	background-color: #d9534f;
+}
+.infoColor, .colorInfo{
+	background-color: #5bc0de;
+}
+.primaryColor, .colorPrimary{
+	background-color: #337ab7;
+	color: white;
+}
+.greyColor{
+	background-color: grey;
+}
+.tealColor{
+	background-color: #318696 !important;
+	color: white;
+}
+#boneWrapper{
+	position: absolute;
+	color: black;
+	background: rgba(255, 255, 255, 0.98);
+	border: 2px solid black;
+	width: 90vw;
+	margin: 5vh 5vw 5vh 5vw;
+	z-index: 5;
+	text-align: center;
+	font-size: 1.3vw;
+	padding: .5vw 2vw;
+}
+
+#minusRes{
+	color: red;
+	border: 1px solid red;
+	font-size: .8em;
+}
+
+#boostPreviewContainer{
+	width: 100%;
+	text-align: left;
+	margin-bottom: 1vw;
+}
+
+
+.boostSpacer{
+
+	font-size: .8em;
+}
+
+.importsPreview{
+	text-align: left;
+	margin-bottom: .1vw;
+	width: 90%;
+	display: inline-block;
+}
+
+.bundleBtn{
+	font-size: .8em;
+}
+
+.kredImg{
+	width: 1.5vw;
+}
+
+#addBundleBtn{
+	margin-bottom: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	color: white;
+} 
+
+.titleCell{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.importLocation{
+	text-align: center;
+	text-decoration: underline;
+	text-color: grey;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+#bundleTitle{
+	font-size: 2vw;
+	margin-bottom: .5vw;
+}
+
+#importsPreview1{
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
+
+#boneBtnText{
+	font-size: .9vw;
+}
+
+.boneBtn{
+    border: 1px solid white;
+    text-align: center;
+    padding: .1vw;
+}
+
+#boneBuyRow{
+	height: 27vw;
+}
+
+#getBonesBtn{
+	color: white;
+	border: 1px solid black;
+}
+
+#getBonesBtn:hover{
+	background-color: #326332;
+}
+
+.boneBuyDesc{
+	font-size: .8em;
+	background-color: #d0d0d0;
+}
+
+.miscDesc{
+	background-color: #d0d0d0;
+	margin-top: .5vw;
+	margin-bottom: 1vw;
+	font-size: 0.9vw;
+}
+
+#boneFlavorRow{
+	font-size: 1.2vw;
+	margin-top: .6vw;
+	margin-bottom: .6vw;
+}
+#boneTopRow{
+	font-size: 4vw;
+}
+#boneTitleContainer{
+	font-weight: bold;
+	font-size: 3vw;
+}
+#boneOwnedContainer{
+	font-size: 2vw;
+}
+#purchaseBonesTitle{
+	font-size: 3vw;
+}
+
+#importBuyDesc{
+	font-size: .9em;
+}
+
+.thingSmall{
+	display: inline-block;
+	font-size: 1.3em;
+	border: 1px solid black;
+	width: 25%;
+	color: white;
+	margin-top: .5vw;
+	margin-bottom: .5vw;
+}
+
+.importPreviewName{
+	font-weight: bold;
+}
+
+.importPreviewLoot{
+	width: 83%;
+	text-align: right;
+	padding-left: 1vw;
+
+}
+
+#importPurchaseBtn{
+	margin-top: .5vw;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: .2vw;
+}
+
+.buyBoostBtn{
+	margin-bottom: .5vw;
+}
+
+.table{
+	margin-bottom: 0;
+}
+
+#boneBuyTableContainer{
+	text-align: center;
+}
+
+#boneBuyTable{
+	background-color: #337ab7;
+	color: white;
+	width: 45%;
+	margin-left: 27.5%;
+	text-align: left;
+	margin-top: 1vw;
+}
+
+
+#boneBuyTable > tbody > tr{
+	border-bottom: 1vw solid white;
+}
+
+
+#boneBuyTable > tbody > tr > td:first-child{
+	padding-left: 1vw;
+	width: 30%;
+	padding-right: 0;
+}
+
+.boneBuyColumn{
+	background-color: #e1e1e1;
+	height: 100%;
+	border: .5vw solid white;
+}
+
+
+#boneBuyTable > tbody > tr > td:nth-child(2){
+	text-align: center;
+}
+
+#boneBuyTable > tbody > tr > td:nth-child(3){
+	text-align: right;
+	padding-right: 1vw;
+}
+
+
+.importsTable > tbody > tr:hover{
+	background-color: grey;
+	cursor: pointer;
+}
+
+.importsTable > tbody > tr {
+	background-color: #d0d0d0;
+	font-size: .75vw;
+}
+
+.importOwned{
+	background-color: green !important;
+	color: white;
+}
+
+#mapBonus{
+	font-size: .8em;
+}
+
+#critSpan, #badCrit{
+	font-weight: bold;
+	color: yellow;
+	font-size: .9em;
+}
+
+#tab5{
+	width: 2.2%;
+}
+
+.goldMap{
+	background-color: #998100;
+}
+
+#bonesFrom{
+	margin-top: .5vw;
+	display: inline-block;
+}
+
+#getBundleBtn{
+	margin-top: .5vw;
+	margin-left: -4px;
+	border: 1px solid black;
+	font-size: 0.8em !important;
+	color: white !important;
+	background-color: #4692a8;
+	padding: 0.25vw;
+}
+
+#getBundleBtn:hover{
+	background-color: #2a5866;
+}
+
+#challengesHere{
+	margin-bottom: 1vw;
+}
+
+#specificChallengeDescription{
+	min-height: 10vw;
+	margin: 1vw;
+	color: #318696;
+	background-color: #d0d0d0;
+}
+
+#challenges{
+	margin: 0 1vw;
+}
+
+#challengeTitle{
+	text-align: center;
+	font-size: 1.1vw;
+}
+
+#challengeDescription{
+	font-size: 1vw;
+	height: 20vw;
+}
+
+#portalTabs{
+    background: black;
+	border: 1px solid white;
+	margin-bottom: .5vw;
+	margin-top: .5vw;
+}
+
+#ptabRemove > a {
+	color: red;
+}
+
+#portalError{
+	background-color: black;
+	color: red;
+	font-size: 1.1vw;
+}
+
+.challengeThing{
+	background-color: #318696;
+	color: white;
+	font-size: 1.1vw;
+	width: 19.4%;
+}
+
+#extraGridInfo{
+	font-size: 1vw;
+}
+
+#extraGridInfoTitle{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2vw;
+}
+
+#extraGridInfoSummary{
+	margin-top: 1vw;
+	font-size: 1.1vw;
+}
+
+#extraGridInfoSub{
+	font-weight: bold;
+	margin-top: 1vw;
+}
+
+#extraGridInfoBtns{
+	margin-top: 1vw;
+	text-align: center;
+	font-size: 1.3vw;
+
+}
+
+.finishedChallenge {
+	background-color: grey;
+}
+
+.formationBtn{
+	background-color: grey;
+	color: white;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px;
+	display: none;
+}
+
+#helpContainer {
+	font-size: 1.1vw;
+}
+
+#lootBdContainer{
+	margin-top: 5%;
+	margin-right: 12.5%;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #ce8c2d;
+  border-color: #885b1c;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  color: #fff;
+  background-color: #ab7324;
+  border-color: #885b1c;
+}
+
+.btn-info {
+  color: #000;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  color: #000;
+}
+
+.btn-new {
+background: -moz-linear-gradient(left,  #000000 0%, #400010 50%, #000000 100%);
+background: -webkit-linear-gradient(left,  #000000 0%,#400010 50%,#000000 100%);
+background: linear-gradient(to right,  #000000 0%,#400010 50%,#000000 100%);
+color: white;
+}
+.btn-new:hover,
+.btn-new:focus,
+.btn-new.focus,
+.btn-new:active,
+.btn-new.active,
+.open > .dropdown-toggle.btn-new {
+background: -moz-linear-gradient(left,  #000000 0%, #fff 50%, #000000 100%);
+background: -webkit-linear-gradient(left,  #000000 0%,#fff 50%,#000000 100%);
+background: linear-gradient(to right,  #000000 0%,#fff 50%,#000000 100%);
+color: #400010;
+
+}
+.btn-new:active,
+.btn-new.active,
+.open > .dropdown-toggle.btn-new {
+  background-image: none;
+}
+
+#flagMustRestart{
+	color: maroon;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.progress {
+    position: relative;
+}
+
+.progress > div > span {
+    position: absolute;
+    display: block;
+    width: 100%;
+	font-size: 1vw;
+	line-height: 1vw;
+	margin: 0;
+	padding: 0;
+	color: black;
+ }
+ 
+ .noTransition {
+	-webkit-transition: none !important;
+       -o-transition: none !important;
+          transition: none !important;
+ }
+ 
+ #miscColumn  span {
+	font-size: 1.2vw !important;
+}
+
+.mapElementSelected {
+	-webkit-box-shadow:inset 0px 0px 0px 0.2vw #7D2A2A;
+    -moz-box-shadow:inset 0px 0px 0px 0.2vw #7D2A2A;
+    box-shadow:inset 0px 0px 0px 0.2vw #7D2A2A;
+	border: 0;
+}
+
+.mapElementNotSelected {
+	border: 1px solid white;
+}
+
+.thingColorCanAfford {
+	background: black;
+}
+
+.thingColorCanNotAfford {
+	background: grey;
+}
+
+.thingColorFiringJob {
+	background: red;
+}
+
+.fireBtnFiring {
+	background: rgba(255,0,0,0.5);
+}
+
+.fireBtnNotFiring {
+	background: rgba(255,255,255,0.25);
+}
+
+.tabSelected {
+	background: rgba(0,0,0,0.5);
+}
+
+.tabNotSelected {
+	background: rgba(255,255,255,0.25);
+}
+
+#buyTabs > ul > .tabSelected a {
+	border-bottom: 0;
+}
+
+.cellColorBeaten{
+	background: green;
+}
+
+.cellColorCurrent {
+	background: yellow;
+}
+
+.percentColorBlue {
+	background-color: #00B2EE;
+}
+
+.percentColorYellow {
+	background-color: yellow;
+}
+
+.percentColorOrange {
+	background-color: #FFA824;
+}
+
+.percentColorRed {
+	background-color: red;
+}
+
+.psColorWhite {
+	color: white;
+}
+
+.psColorOrange {
+	color: orange;
+}
+
+sup{
+	top: -0.3em;
+}
+
+.autoUpgradeBtn{
+	border: 1px solid white;
+	display: none;
+	font-size: 0.9vw;
+}
+
+.heirloomsBtnColor{
+	background-color: #673aa7;
+	border: 1px solid #5b3394;
+}
+
+.heirloomsBtnColor:hover{
+	background-color: #59328f;
+	color: white;
+}
+
+
+.cBorderOn{
+	-webkit-box-shadow:inset 0px 0px 0px 0.2vw #7D2A2A;
+    -moz-box-shadow:inset 0px 0px 0px 0.2vw #7D2A2A;
+    box-shadow:inset 0px 0px 0px 0.2vw #7D2A2A;
+	border: 0;
+	
+}
+
+.queueItemBack{
+	display: inline-block;
+}
+
+#heliumPh.heliumPh{
+	font-size: 0.9em !important;
+}

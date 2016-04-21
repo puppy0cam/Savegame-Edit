@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="fonts/icomoon/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>SaveGame Editor</title>
+	</head>
+	<body>
+		<script type="text/javascript" href="js/use.js" src="js/use.js"></script>
+		<script type="text/javascript" href="js/lz-string.js" src="js/lz-string.js"></script>
+		<div id="importBox" class="tooltipExtraNone" style="display: block; left: 0%; top: 0%;">
+			<div id="importTitle">Import</div>
+			<hr>
+			<div id="importText"><br><br><textarea id="importArea" style="width: 100%" rows="20" placeholder="Insert your code here and press Import" autofocus></textarea></div>
+			<hr>
+			<div id="importCost"><div class="maxCenter"><div id="confirmImportBtn" class="btn btn-info" onclick="importer()">Import</div></div></div>
+		</div>
+		<div id="exportBox" class="tooltipExtraNone" style="display: block; right: 0%; top: 0%;">
+			<div id="exportTitle">Export</div>
+			<hr>
+			<div id="exportText"><br><br><textarea id="exportArea" style="width: 100%" rows="20" placeholder="your decoded savegame will be shown here after importing. after editing it as you want, press Export."></textarea></div>
+			<hr>
+			<div id="exportCost"><div class="maxCenter"><div id="confirmExportBtn" class="btn btn-info" onclick="exporter()">Export</div></div></div>
+		</div>
+	</body>
+</html>
