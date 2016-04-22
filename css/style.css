@@ -743,6 +743,48 @@ overflow-x: hidden;
 	margin-bottom: 1vh;
 }
 
+#JsonBtn {
+    width: 32.5vw;
+    position: absolute;
+    background: lightgrey;
+    display: none;
+    padding: 10px;
+    border: 2px solid blue;
+    font-size: 0.9vw;
+	z-index: 7;
+}
+
+#JsonBtn.tooltipExtraHeirloom{
+	background-color: initial;
+	border: initial;
+}
+
+#JsonBtn .selectedHeirloomItem{
+	font-size: 1.5vw;
+}
+
+#JsonBtn.tooltipExtraHeirloom hr{
+	display: none;
+}
+
+#JsonBtn .heirloomMod{
+	background-color: initial;
+	border: initial;
+	margin: initial;
+}
+
+@media screen and (max-width: 1200px) {
+    #JsonBtn{
+		font-size: 1.1vw;
+	}
+}
+
+
+#JsonBtn > hr {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
 #importBox {
     width: 32.5vw;
     position: absolute;
@@ -784,6 +826,8 @@ overflow-x: hidden;
 	margin-top: 1vh;
 	margin-bottom: 1vh;
 }
+
+#JsonBtn{ text-align: center }
 
 .onMapName{
 	width: 90%;
